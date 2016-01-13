@@ -2,7 +2,10 @@ import {Component} from 'angular2/core';
 
 @Component({
 	selector: 'my-app',
-	template: '<h1>My First Angular 2.0 App (Beta)</h1>'
+	templateUrl: 'hello_input.html'
 })
 
-export class AppComponent { }
+export class AppComponent {
+	// Declaring the variable for binding with initial value
+	yourname: string = '';
+}
