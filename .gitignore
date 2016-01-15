@@ -1,6 +1,6 @@
 # Logs
 logs
-*.log
+*.log*
 
 # Runtime data
 pids
@@ -27,4 +27,4 @@ build/Release
 node_modules
 
 # Release dir
-release
+build
