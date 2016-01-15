@@ -1,0 +1,10 @@
+<div *ngIf="selectedHero != null">
+    <h2>{{selectedHero.name}} details!</h2>
+    <div><label>id: </label> {{selectedHero.id}}</div>
+    <form class="form-inline">
+        <div class="form-group">
+            <label for="hero-name">name: </label>
+            <input maxlength="20" class="form-control" id="hero-name" [(ngModel)]="selectedHero.name">
+        </div>
+    </form>
+</div>

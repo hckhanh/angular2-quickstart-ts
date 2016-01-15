@@ -1,0 +1,14 @@
+.selected {
+  background-color: #CFD8DC !important;
+  color: white;
+  display: inline-block;
+}
+
+.heroes li {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  width: 25%;
+}
